@@ -38,7 +38,7 @@ $('.kz-nav-btn').on('click', function() {
 
 console.log(
     "\n" +
-      " %c KZHomePage v1.2.0 by kaygb " +
+      " %c 修改至 KZHomePage v1.2.0 by kaygb " +
       " %c https://blog.170601.xyz/archives/25.html " +
       "\n" +
       "\n",
@@ -80,7 +80,7 @@ $.ajax({
   },
 });
 
-fetch('https://v1.hitokoto.cn')
+fetch('https://v1.hitokoto.cn/?c=c&c=a')
     .then(response => response.json())
     .then(data => {
       const hitokoto = document.getElementById('hitokoto_text')
